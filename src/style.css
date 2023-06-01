@@ -1,3 +1,7 @@
-#hello {
-  color: pink;
+.weather {
+  border: 2px solid #48475b;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 50px auto;
+  max-width: 600px;
 }

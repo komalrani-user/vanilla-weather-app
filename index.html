@@ -14,9 +14,51 @@
     <title>Weather App</title>
   </head>
   <body>
-    <div>
-      <h1 id="hello">hello world</h1>
-      <a href="" class="btn btn-primary"></a>
+    <div class="weather">
+      <form class="search-form" id="search-form">
+        <input
+          type="search"
+          placeholder="Type a city..."
+          autofocus="on"
+          autocomplete="off"
+          id="city-input"
+        />
+      </form>
+      <div class="city">City,Country</div>
+      <div class="temp"><h2>17°C</h2></div>
+      <div class="date"><h2>1st June</h2></div>
+      <div class="time"><h2>09:00</h2></div>
+      <h3>5 Day Forecast</h3>
+      <div class="days">
+        <div class="day">Thursday</div>
+        <div class="forecast">
+          <img src="assets/sun.png" alt="Sunny" />Sunny
+        </div>
+      </div>
+      <div class="days">
+        <div class="day">Friday</div>
+        <div class="forecast">
+          <img src="assets/cloud.png" alt="Cloudy" />Cloudy
+        </div>
+      </div>
+      <div class="days">
+        <div class="day">Saturday</div>
+        <div class="forecast">
+          <img src="assets/rain.png" alt="Rainy" />Rainy
+        </div>
+      </div>
+      <div class="days">
+        <div class="day">Sunday</div>
+        <div class="forecast">
+          <img src="assets/snow.png" alt="Snowy" />Snowy
+        </div>
+      </div>
+      <div class="days">
+        <div class="day">Monday</div>
+        <div class="forecast">
+          <img src="assets/sun.png" alt="Sunny" />Sunny
+        </div>
+      </div>
     </div>
     <script src="src/app.js"></script>
   </body>
